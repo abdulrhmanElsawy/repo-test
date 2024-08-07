@@ -1,0 +1,60 @@
+.latestwork-content {
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+
+.latestwork .work {
+    height: 414px;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-top: 35px;
+    position: relative;
+}
+
+.latestwork .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #ffffff3d;
+}
+
+.latestwork .overlay img {
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.1;
+}
+
+.latestwork .overlay img:hover>.overlay{
+    display: none;
+}
+
+.latestwork .overlay:hover {
+    display: none;
+}
+
+.latestwork .work  img {
+    width: 100%;
+    position: relative;
+    top: 0%;
+    transition: 4s;
+    height: 100%;
+}
+
+.latestwork .work > img:hover>.overlay {
+    display: none;
+}
+
+
+@media(max-width:950px){
+    
+    .latestwork-content {
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+}

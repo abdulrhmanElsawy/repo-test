@@ -1,0 +1,103 @@
+
+
+.landing .landing-content{
+    background-size: cover;
+    background-image: url("../public/images/landing.jpg");
+    background-position: center;
+    margin-top: 121px;
+    border-radius: 23px;
+    min-height: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.landing .landing-content .text{
+    margin-left: 30%;
+    color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 16px;
+    text-align: right;
+    padding: 15px;
+}
+
+.landing .landing-content .text .right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 18px;
+}
+
+.landing .landing-content .text .right h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.landing .landing-content .text .right h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 47px;
+}
+
+
+.landing .landing-content .text .right a{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    border-radius: 21px;
+    color: #fff;
+    height: 43px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.landing .landing-content .text .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.landing .landing-content .text .left h3{
+    font-size: 19px;
+    transform: rotate(-90deg);
+    width: 153px;
+}
+
+
+
+@media(max-width:950px){
+    .landing .landing-content {
+        background-size: cover;
+        background-position: center;
+        margin-top: 121px;
+        border-radius: 23px;
+        min-height: 453px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+
+    .landing .landing-content .text {
+        margin-left: 0;
+        color: #fff;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 16px;
+        text-align: right;
+        width: 100%;
+    }
+}

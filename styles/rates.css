@@ -1,0 +1,131 @@
+.rates{
+
+    margin-top: 50px;
+}
+
+.rates .rates-content{
+    margin-left: 30%;
+    margin-bottom: 50px;
+
+}
+
+
+
+.rates .rates-content .rates-slider .rate-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.rates .rates-content .rates-slider .rate-content .rate {
+    width: 100%;
+    background-color: #00283a;
+    min-height: 460px;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rates .rates-content .rates-slider .rate-content .rate img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.rates .rates-content .rates-slider .rate-content .rate h3{
+    color: #fff;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    direction: rtl;
+    font-size: 19px;
+}
+
+
+.rates .rates-content .rates-slider .rate-content .rate ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    color: #efd610;
+    padding: 0;
+    margin-bottom: 39px !important;
+}
+
+
+
+.rates .rates-content .rates-slider .rate-content .rate p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 35px;
+    direction: rtl;
+}
+
+
+.rates .rates-content .rates-slider .rate-content .rate a{
+    color: #70ba65;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 40px;
+    background-color: #00151f;
+    border-radius: 10px;
+}
+
+.arrows{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #70ba65;
+    font-size: 31px;
+    margin-bottom: 14px;
+}
+
+.arrows h2{
+    font-size: 25px;
+    color: #efd610;
+}
+
+
+.arrows i{
+    cursor: pointer;
+}
+
+
+
+@media(max-width:950px){
+    .rates .rates-content {
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .rates .rates-content .rates-slider .rate-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+    }
+
+    .rates .rates-content .rates-slider .rate-content .rate {
+        width: 100%;
+        background-color: #00283a;
+        min-height: 460px;
+        border-radius: 25px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

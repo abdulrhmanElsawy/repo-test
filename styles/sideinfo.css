@@ -1,0 +1,146 @@
+.sideinfo{
+    position: fixed;
+    left: 10%;
+    top: 22%;
+    background-color: #00283a;
+    border-radius: 25px;
+    padding: 15px;
+    height: 76%;
+    width: 20%;
+}
+
+.sideinfo .sideinfo-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sideinfo .sideinfo-content img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+}
+
+
+.sideinfo .sideinfo-content h1{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 21px;
+    margin-bottom: 19px;
+}
+
+
+.sideinfo .sideinfo-content h2{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    color: #70ba65;
+}
+
+
+.sideinfo .sideinfo-content>span:not(.online){
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-top: 2px dotted #ffffff24;
+}
+
+
+.sideinfo .sideinfo-content ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 89%;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.sideinfo .sideinfo-content ul a{
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.sideinfo .online{
+    
+    position: absolute;
+    background-color: #70ba65;
+    width: 15px;
+    height: 15px;
+    top: 25%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+
+}
+
+.sideinfo .sideinfo-content h2:not(h2:nth-child(4)){
+    color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sideinfo .sideinfo-content h2 span{
+    font-weight: 600;
+    color: #949494;
+}
+
+.sideinfo .sideinfo-content>a{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 50px;
+    background-color: #70ba65;
+    margin-top: 10px;
+    gap: 15px;
+    color: #fff;
+    border-radius: 27px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media(max-width:950px){
+    .sideinfo {
+        position: relative;
+        left: inherit;
+        top: inherit;
+        background-color: #00283a;
+        border-radius: 25px;
+        padding: 15px;
+        height: 100%;
+        width: 90%;
+        margin-top: 178px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .sideinfo .online {
+        position: absolute;
+        background-color: #70ba65;
+        width: 15px;
+        height: 15px;
+        top: 27%;
+        left: 58%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+    }
+
+
+}
