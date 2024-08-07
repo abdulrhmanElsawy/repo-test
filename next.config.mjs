@@ -8,7 +8,6 @@ const nextConfig = {
         domains: ['lh3.googleusercontent.com'],
     },
     output: "export",
-    distDir: 'build',
     trailingSlash: true,
     skipTrailingSlashRedirect: true,
     reactStrictMode: true,
