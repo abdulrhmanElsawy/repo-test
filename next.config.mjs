@@ -3,7 +3,10 @@ const nextConfig = {
     images: {
         domains: ['lh3.googleusercontent.com'],
     },
-    // output: "export",
+    output: "export",
+    distDir: 'build',
+    trailingSlash: true,
+    skipTrailingSlashRedirect: true,
     reactStrictMode: true,
     webpack(config, options) {
         config.module.rules.push({
